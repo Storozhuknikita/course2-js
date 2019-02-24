@@ -5,8 +5,7 @@ function natural(num) {
     if(num < 2) return false;
 
     for (var i = 2; i < num; i++) {
-        if(num % i == 0)
-            return false;
+        if(num % i == 0) return false;
     }
     return true;
 }
@@ -75,7 +74,7 @@ for (var c = 0; c < 10; console.log(c++)) {}
 
 var lines = 20;
 var str = ' ';
-var star = '*'
+var star = '*';
 for(var q = 0; q < lines; q++){
     str += star;
     console.log(str);

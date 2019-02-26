@@ -1,0 +1,55 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+
+        <style>
+
+            #chessBoard span{
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+            }
+
+            #chessBoard div:nth-child(odd) span:nth-child(even),
+            #chessBoard div:nth-child(even) span:nth-child(odd){
+                background-color: black;
+            }
+
+            #chessBoard div:nth-child(even) span:nth-child(even),
+            #chessBoard div:nth-child(odd) span:nth-child(odd){
+                background-color: gray;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        Hello HomeWork 5
+
+
+        <div id="chessBoard"></div>
+
+
+
+
+
+        1. Создать функцию, генерирующую шахматную доску.
+        При этом можно использовать любые html-теги по своему желанию.
+        Доска должна быть разлинована соответствующим образом, т.е. чередовать черные и белые ячейки.
+        Строки должны нумероваться числами от 1 до 8, столбцы – латинскими буквами A, B, C, D, E, F, G, H.
+        <hr>
+
+        2. Заполнить созданную таблицу буквами, отвечающими за шахматную фигуру, например К – король, Ф – ферзь и т.п., причем все фигуры должны стоять на своих местах и быть соответственно черными и белыми.
+        <hr>
+
+        3. *Заменить буквы, обозначающие фигуры, картинками.
+        <hr>
+
+
+        <script src="homework5.js" defer></script>
+
+    </body>
+
+</html>

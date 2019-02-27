@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d25c798-094d-48bf-a4a4-e1bcf4848614" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/homeworks/5/homework5.html" afterPath="$PROJECT_DIR$/homeworks/5/homework5.html" />
-      <change beforePath="$PROJECT_DIR$/homeworks/5/homework5.js" afterPath="$PROJECT_DIR$/homeworks/5/homework5.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homework5.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homework5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homeworks/5/homework5.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -64,6 +73,7 @@
         <option value="$PROJECT_DIR$/lessons/4/lesson4.js" />
         <option value="$PROJECT_DIR$/homeworks/5/homework5.js" />
         <option value="$PROJECT_DIR$/homeworks/5/homework5.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -102,40 +112,6 @@
             <path>
               <item name="course2" type="b2602c69:ProjectViewProjectNode" />
               <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="homeworks" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="homeworks" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="4" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="homeworks" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="5" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="4" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="5" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -203,12 +179,12 @@
       <workItem from="1551198144832" duration="61000" />
       <workItem from="1551198252500" duration="246000" />
       <workItem from="1551198527625" duration="5043000" />
-      <workItem from="1551286491705" duration="3297000" />
+      <workItem from="1551286491705" duration="3382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33468000" />
+    <option name="totallyTimeSpent" value="33553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,13 +233,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lessons/3/lesson3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homeworks/4/homework4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -614,6 +583,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>

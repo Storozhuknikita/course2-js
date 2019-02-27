@@ -44,6 +44,18 @@ Object.values(human);
 // Задача
 
 
+function printLog(message) {
+    var $li = document.createElement('li');
+
+    $li.textContent = message;
+
+    $history.appendChild($li);
+
+}
+
+
+$history = document.getElementById =('history');
+
 function builtQuestion() {
     var text = '[' +  this.prize + '] ' + this.text;
     for(var i = 0; i < this.options.length; i++) {
@@ -51,7 +63,7 @@ function builtQuestion() {
     }
 
     if(this.fixed) {
-        text = text + '\n' + 'РќР•РЎР“РћР РђР•РњРђРЇ РЎРЈРњРњРђ';
+        text = text + '\n' + 'Текст';
     }
 
     return text;
@@ -59,64 +71,64 @@ function builtQuestion() {
 
 var questions = [
     {
-        text: 'Р’РёСЃРёС‚ РіСЂСѓС€Р° - РЅРµР»СЊР·СЏ СЃРєСѓС€Р°С‚СЊ!',
-        options: ['Р›Р°РјРїРѕС‡РєР°', 'РљР°РєС‚СѓСЃ', 'Р›РѕРїР°С‚Р°', 'РђРІС‚РѕРјРѕР±РёР»СЊ'],
+        text: 'Висит груша нельзя скушать',
+        options: ['вариант 1', 'вариант 2', 'вариант 3', 'вариант 4'],
         correct: 0,
         prize: 100,
         fixed: false,
         getText: builtQuestion,
     },
     {
-        text: 'Р’РёСЃРёС‚ РіСЂСѓС€Р° - РЅРµР»СЊР·СЏ СЃРєСѓС€Р°С‚СЊ!',
-        options: ['Р›Р°РјРїРѕС‡РєР°', 'РљР°РєС‚СѓСЃ', 'Р›РѕРїР°С‚Р°', 'РђРІС‚РѕРјРѕР±РёР»СЊ'],
+        text: 'Висит груша нельзя скушать',
+        options: ['вариант 1', 'вариант 2', 'вариант 3', 'вариант 4'],
         correct: 1,
         prize: 500,
         fixed: false,
         getText: builtQuestion,
     },
     {
-        text: 'Р’РёСЃРёС‚ РіСЂСѓС€Р° - РЅРµР»СЊР·СЏ СЃРєСѓС€Р°С‚СЊ!',
-        options: ['Р›Р°РјРїРѕС‡РєР°', 'РљР°РєС‚СѓСЃ', 'Р›РѕРїР°С‚Р°', 'РђРІС‚РѕРјРѕР±РёР»СЊ'],
+        text: 'Висит груша нельзя скушать',
+        options: ['вариант 1', 'вариант 2', 'вариант 3', 'вариант 4'],
         correct: 2,
         prize: 1000,
         fixed: false,
         getText: builtQuestion,
     },
     {
-        text: 'Р’РёСЃРёС‚ РіСЂСѓС€Р° - РЅРµР»СЊР·СЏ СЃРєСѓС€Р°С‚СЊ!',
-        options: ['Р›Р°РјРїРѕС‡РєР°', 'РљР°РєС‚СѓСЃ', 'Р›РѕРїР°С‚Р°', 'РђРІС‚РѕРјРѕР±РёР»СЊ'],
+        text: 'Висит груша нельзя скушать',
+        options: ['вариант 1', 'вариант 2', 'вариант 3', 'вариант 4'],
         correct: 3,
         prize: 5000,
         fixed: true,
         getText: builtQuestion,
     },
     {
-        text: 'Р’РёСЃРёС‚ РіСЂСѓС€Р° - РЅРµР»СЊР·СЏ СЃРєСѓС€Р°С‚СЊ!',
-        options: ['Р›Р°РјРїРѕС‡РєР°', 'РљР°РєС‚СѓСЃ', 'Р›РѕРїР°С‚Р°', 'РђРІС‚РѕРјРѕР±РёР»СЊ'],
+        text: 'Висит груша нельзя скушать',
+        options: ['вариант 1', 'вариант 2', 'вариант 3', 'вариант 4'],
         correct: 0,
         prize: 50000,
         fixed: false,
         getText: builtQuestion,
     },
     {
-        text: 'Р’РёСЃРёС‚ РіСЂСѓС€Р° - РЅРµР»СЊР·СЏ СЃРєСѓС€Р°С‚СЊ!',
-        options: ['Р›Р°РјРїРѕС‡РєР°', 'РљР°РєС‚СѓСЃ', 'Р›РѕРїР°С‚Р°', 'РђРІС‚РѕРјРѕР±РёР»СЊ'],
+        text: 'Висит груша нельзя скушать',
+        options: ['вариант 1', 'вариант 2', 'вариант 3', 'вариант 4'],
         correct: 1,
         prize: 100000,
         fixed: true,
         getText: builtQuestion,
     },
     {
-        text: 'Р’РёСЃРёС‚ РіСЂСѓС€Р° - РЅРµР»СЊР·СЏ СЃРєСѓС€Р°С‚СЊ!',
-        options: ['Р›Р°РјРїРѕС‡РєР°', 'РљР°РєС‚СѓСЃ', 'Р›РѕРїР°С‚Р°', 'РђРІС‚РѕРјРѕР±РёР»СЊ'],
+        text: 'Висит груша нельзя скушать',
+        options: ['вариант 1', 'вариант 2', 'вариант 3', 'вариант 4'],
         correct: 2,
         prize: 500000,
         fixed: false,
         getText: builtQuestion,
     },
     {
-        text: 'Р’РёСЃРёС‚ РіСЂСѓС€Р° - РЅРµР»СЊР·СЏ СЃРєСѓС€Р°С‚СЊ!',
-        options: ['Р›Р°РјРїРѕС‡РєР°', 'РљР°РєС‚СѓСЃ', 'Р›РѕРїР°С‚Р°', 'РђРІС‚РѕРјРѕР±РёР»СЊ'],
+        text: 'Висит груша нельзя скушать',
+        options: ['вариант 1', 'вариант 2', 'вариант 3', 'вариант 4'],
         correct: 3,
         prize: 1000000,
         fixed: false,
@@ -133,7 +145,8 @@ for(var i = 0; i < questions.length; i++) {
         prize = questions[i].prize;
     } else {
         prize = 0;
-        alert('Р’С‹ РїСЂРѕРёРіСЂР°Р»Рё!');
+        alert('Вы проиграли');
+        printLog('Вы проиграли')
         for(var j = i; j >= 0; j--) {
             if(questions[j].fixed) {
                 prize = questions[j].prize;

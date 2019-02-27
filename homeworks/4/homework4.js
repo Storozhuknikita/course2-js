@@ -1,6 +1,10 @@
 
 // Задание 1
-function convert() {
+function convert(inputValue) {
+
+    if(isNaN(inputValue) || inputValue < 0) {
+        return 'Число меньше 0';
+    }
 
     var arrayValue = inputValue.split(''); // преобразуем в массив
 
@@ -33,7 +37,7 @@ console.log(obj);
 ///
 
 
-/// Задание 3
+/// Задание 2
 
 var things = {
     1 : {

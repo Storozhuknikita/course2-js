@@ -1,4 +1,6 @@
 
+// функция генерирующая доску
+
 function draw() {
 
     var table = document.createElement('table'); // создаем таблицу

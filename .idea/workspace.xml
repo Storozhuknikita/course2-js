@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d25c798-094d-48bf-a4a4-e1bcf4848614" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/homeworks/6/homework6.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/homeworks/6/homework6.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lessons/6/6.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lessons/6/6.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/homeworks/5/homework5.html" afterPath="$PROJECT_DIR$/homeworks/5/homework5.html" />
       <change beforePath="$PROJECT_DIR$/homeworks/5/homework5.js" afterPath="$PROJECT_DIR$/homeworks/5/homework5.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,21 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homework5.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homeworks/5/homework5.html">
+      <file leaf-file-name="6.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lessons/6/6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homework5.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homeworks/5/homework5.js">
+      <file leaf-file-name="6.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lessons/6/6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,9 +66,13 @@
         <option value="$PROJECT_DIR$/lessons/5/5.js" />
         <option value="$PROJECT_DIR$/lessons/4/lesson4.html" />
         <option value="$PROJECT_DIR$/lessons/4/lesson4.js" />
-        <option value="$PROJECT_DIR$/homeworks/5/homework5.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lessons/6/6.js" />
+        <option value="$PROJECT_DIR$/homeworks/6/womework6.html" />
+        <option value="$PROJECT_DIR$/homeworks/6/homework6.html" />
+        <option value="$PROJECT_DIR$/lessons/6/6.html" />
         <option value="$PROJECT_DIR$/homeworks/5/homework5.js" />
+        <option value="$PROJECT_DIR$/homeworks/5/homework5.html" />
       </list>
     </option>
   </component>
@@ -104,6 +113,40 @@
             <path>
               <item name="course2" type="b2602c69:ProjectViewProjectNode" />
               <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="homeworks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="homeworks" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="4" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="homeworks" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="5" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="5" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="course2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="course2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="6" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -170,12 +213,13 @@
       <workItem from="1551198252500" duration="246000" />
       <workItem from="1551198527625" duration="5043000" />
       <workItem from="1551286491705" duration="3621000" />
-      <workItem from="1551290510911" duration="32000" />
+      <workItem from="1551290510911" duration="394000" />
+      <workItem from="1551519623907" duration="2016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33824000" />
+    <option name="totallyTimeSpent" value="36202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,7 +235,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21101573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21387696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -224,34 +268,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homeworks/4/homework4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/3/lesson3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeworks/4/homework4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeworks/4/homework4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homeworks/4/homework4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -511,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homeworks/4/homework4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/3/lesson3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -546,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lessons/5/5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lessons/5/5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -567,18 +569,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/5/5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeworks/6/homework6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeworks/6/homework6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/6/6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/homeworks/5/homework5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="945">
+          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeworks/4/homework4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="90" column="68" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="90" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homeworks/5/homework5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="443">
+          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lessons/6/6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        h1 {
+            color: red;
+            font-size: 20px;
+        }
+
+        .count_sum {
+            color: black;
+            font-size: 20px;
+        }
+
+        .products {
+            display: block;
+        }
+
+        .shop {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .product {
+            display: block;
+            background-color: bisque;
+            width: 400px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+Hello HomeWork 6<br/>
+<hr>
+1. Реализовать страницу корзины:<br/>
+Добавить возможность не только смотреть состав корзины, но и редактировать его, обновляя общую стоимость или выводя сообщение «Корзина пуста».<br/>
+2. На странице корзины:
+Сделать отдельные блоки «Состав корзины», «Адрес доставки», «Комментарий»;
+Сделать эти поля сворачиваемыми;
+Заполнять поля по очереди, то есть давать посмотреть состав корзины, внизу которого есть кнопка «Далее». Если нажать ее, сворачивается «Состав корзины» и открывается «Адрес доставки» и так далее.<br/>
+3. * Убрать границы поля: пересекая их, змейка должна появляться с противоположной стороны.<br/>
+4. * Для задачи со звездочкой из шестого урока реализовать функционал переключения между картинками по стрелкам на клавиатуре.<br/>
+
+<hr>
+
+<h1>Корзина</h1>
+<span class="count_sum" id="count_sum"></span>
+<div class="products" id="products">
+
+</div>
+
+<hr>
+
+<h1>Магазин</h1>
+
+<div class="shop" id="shop">
+    <div class="product">
+        <div class="img"><img src="https://sdtimes.com/wp-content/uploads/2016/01/0108.sdt-motorola.jpg"></div>
+        <div class="name">Моторола</div>
+        <div class="price">500</div>
+        <button>Купить</button>
+    </div>
+
+    <div class="product">
+        <div class="img"><img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Siemens_MT_50_01.jpg"></div>
+        <div class="name">Simens</div>
+        <div class="price">300</div>
+        <button>Купить</button>
+    </div>
+
+    <div class="product">
+        <div class="img"><img src="https://images.ctfassets.net/wcfotm6rrl7u/1nQnAFS1oEUSU0aUiUCQWS/68c66c156cf258a5a8b7756f48f600c8/Nokia_130-Hero.png?fm=png"></div>
+        <div class="name">Nokia</div>
+        <div class="price">400</div>
+        <button>Купить</button>
+    </div>
+</div>
+
+<script type="text/javascript">
+    // информация о товарах в корзине
+    var things = [];
+
+    // куда будем помещать новую инфу
+    var $products = document.getElementById('products');
+
+    // генерируем список корзины
+    function buildThings(things) {
+        // обнуляем
+        $products.innerHTML = '';
+        for (var i = 0; i < things.length; i++) {
+            // создание блока
+            var product = document.createElement('div');
+            product.className = 'product';
+
+            // название
+            var name = document.createElement('span');
+            name.className = 'name';
+            name.innerHTML = things[i].name;
+
+            // цены
+            var price = document.createElement('span');
+            price.className = 'price';
+            price.innerHTML = ' - Цена: ' + things[i].price;
+
+            // помещаем span в главный блок div
+            product.appendChild(name);
+            product.appendChild(price);
+
+            // помещаем div в products
+            $products.appendChild(product);
+        }
+    }
+    // генерация списка из того что есть и в этот массив будут добавляться новые
+    buildThings(things);
+
+    // обработка клика по кнопке "купить"
+    function handleAddClick(event){
+
+        // добавить в products
+        if(event.target.tagName === 'BUTTON'){
+            // зная верстку - получаем цены и имя
+            var $price = event.target.previousElementSibling;
+            console.log($price);
+            var $name = $price.previousElementSibling;
+            // добавляем
+            things.push({
+                name: $name.textContent, price: parseFloat($price.textContent), quantity: 0
+            });
+
+            console.log(things);
+
+        }
+
+        // вызываем функцию снова
+        buildThings(things);
+        // пересчитываем корзину после добавления
+        countBasketPrice(things);
+    }
+
+    // получаем товары
+    $shop = document.getElementById('shop');
+    // вешаем обработчик на кнопку "купить"
+    $shop.addEventListener('click', handleAddClick);
+
+    // получаем ячейку в которой будет инфа про стоимость корзины
+    var $count_sum = document.getElementById('count_sum');
+
+    // функция пересчета корзины
+    function countBasketPrice(things) {
+        // сумма 0
+        var sum = 0;
+
+        // считаем все
+        for (var i in things){
+
+            sum = things[i].price + sum;
+        }
+
+        //
+        if(things.length === 0){
+            $count_sum.textContent = 'Корзина пуста';
+        } else {
+            $count_sum.textContent = 'Общая сумма корзины ' + sum + ' рублей';
+        }
+
+    }
+
+    countBasketPrice(things);
+
+</script>
+
+</body>
+
+</html>
+

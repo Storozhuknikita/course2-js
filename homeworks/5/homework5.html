@@ -3,9 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title></title>
+
     </head>
 
     <body>
+
+        <div id="cart"></div>
+
         Hello HomeWork 5<br/>
         <hr>
 
@@ -21,8 +25,50 @@
         3. *Заменить буквы, обозначающие фигуры, картинками.
         <hr>
 
-
         <script src="homework5.js" defer></script>
+
+
+    <script type="text/javascript">
+        var things = [
+            {
+                name: 'iPhone',
+                price: 100,
+                quantity: 1,
+            },
+            {
+                name: 'iPhone',
+                price: 100,
+                quantity: 1,
+            },
+            {
+                name: 'iPhone',
+                price: 100,
+                quantity: 1,
+            },
+        ];
+
+
+        var $cart = document.getElementById('cart');
+
+        function countBasketPrice(things) {
+            var sum = 0;
+            for (var i in things){
+                sum = (things[i].price * things[i].quantity) + sum;
+            }
+
+            var $span = document.createElement('span');
+
+            if(things.length === 0){
+                $span.textContent = 'Корзина пуста';
+            } else {
+                $span.textContent = 'Общая сумма ' + sum + ' рублей';
+            }
+            $cart.appendChild($span);
+        }
+
+        countBasketPrice(things);
+
+    </script>
 
     </body>
 

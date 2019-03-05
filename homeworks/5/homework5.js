@@ -1,4 +1,6 @@
 
+// функция генерирующая доску
+
 function draw() {
 
     var table = document.createElement('table'); // создаем таблицу
@@ -19,15 +21,12 @@ function draw() {
         tdd.style.textAlign = 'center';
         tr.appendChild(tdd); // добавляем ячейку
 
-        //console.log('i: ' + i);
-
         // генерим доску
         for(var j = 0; j < 8; j++){
 
             if(j === 0) { flag = !flag; }
 
             var td = document.createElement('td'); // создаем яейку
-            //console.log('j: ' + j);
 
             td.style.width = '50px';
             td.style.height = '50px';
@@ -108,5 +107,7 @@ function draw() {
 }
 
 draw();
+
+
 
 

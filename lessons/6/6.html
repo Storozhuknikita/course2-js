@@ -1,0 +1,94 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+
+        <style>
+
+            .thumbnail {
+                display: flex;
+                justify-content: space-between;
+                width: 700px;
+            }
+            .thumbnail li, .thumbnail li img {
+                width: 150px;
+                list-style-type: none;
+            }
+
+            .preview {
+                width: 700px;
+                height: 700px;
+                background-color: bisque;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            .preview img {
+                width: 600px;
+            }
+        </style>
+
+
+        <script>
+
+            function init(){
+                var $thumbnail = document.getElementById('thumbnail');
+                $thumbnail.addEventListener('click', handleThumbnailClick);
+            }
+
+            // handle - Button - Click / обработчик кнопка клик
+            function handleThumbnailClick(event){
+                event.preventDefault();
+
+                if(event.target.tagName === 'IMG'){
+                    var $a = event.target.parentElement;
+                    var path = $a.href;
+
+                    var $preview = document.getElementById('preview');
+                    $preview.innerHTML = '';
+
+                    var $image = document.createElement('img');
+                    $image.src = path;
+
+                    $preview.appendChild($image);
+
+                }
+            }
+
+            window.addEventListener('load', init); // регистрация обработчиков событий
+
+        </script>
+    </head>
+
+    <body>
+
+        <div id="preview" class="preview">
+
+        </div>
+
+
+        <ul id="thumbnail" class="thumbnail">
+            <li>
+                <a href="https://i.ytimg.com/vi/mK72EwuxZAU/hqdefault.jpg">
+                <img src="https://i.ytimg.com/vi/mK72EwuxZAU/hqdefault.jpg">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://cs10.pikabu.ru/post_img/big/2018/07/18/4/1531889898156631317.jpg">
+                <img src="https://cs10.pikabu.ru/post_img/big/2018/07/18/4/1531889898156631317.jpg">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://medialeaks.ru/wp-content/uploads/2017/10/catbread-03-600x400.jpg">
+                <img src="https://medialeaks.ru/wp-content/uploads/2017/10/catbread-03-600x400.jpg">
+                </a>
+            </li>
+        </ul>
+        <button id="button">Button</button>
+
+    </body>
+
+</html>
